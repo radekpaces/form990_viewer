@@ -15,13 +15,23 @@
       <button type="submit">Filter</button>
     </form>
 
-    {% for record in records %}
-      <h2>{{ record['filename'] }}</h2>
+
+    {% if stats %}
+      <h2>Aggregated numeric fields</h2>
       <table border="1">
-        {% for k, v in record.items() if k != 'filename' %}
-        <tr><th>{{ k }}</th><td>{{ v }}</td></tr>
+        <tr><th>Field</th><th>Min</th><th>Max</th><th>Average</th></tr>
+        {% for field, vals in stats.items() %}
+          <tr>
+            <td>{{ field }}</td>
+            <td>{{ vals.min }}</td>
+            <td>{{ vals.max }}</td>
+            <td>{{ '%.2f'|format(vals.avg) }}</td>
+          </tr>
         {% endfor %}
       </table>
-    {% endfor %}
+    {% else %}
+      <p>No matching records.</p>
+    {% endif %}
+
   </body>
 </html>

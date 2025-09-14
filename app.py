@@ -24,7 +24,6 @@ FILTERABLE_ATTRIBUTES = config.get("filterable_attributes", {})
 
 def load_records(directory=os.path.join(BASE_DIR, "2024")):
     """Load XML files and return a list of (filename, data) tuples."""
-
     records = []
     for path in glob.glob(os.path.join(directory, "*.xml")):
         with open(path, "r", encoding="utf-8") as f:
@@ -48,6 +47,31 @@ def flatten_dict(obj, parent_key="", sep="."):
         items.append((parent_key, obj))
     return dict(items)
 
+def aggregate_numeric_fields(records):
+    """Compute min, max, and average for numeric fields across records."""
+    stats = {}
+    for rec in records:
+        for key, value in rec.items():
+            if key == "filename" or not key.startswith("Return.ReturnData.IRS990PF."):
+                continue
+            try:
+                num = float(value)
+            except (TypeError, ValueError):
+                continue
+            if key not in stats:
+                stats[key] = {"min": num, "max": num, "sum": num, "count": 1}
+            else:
+                s = stats[key]
+                s["min"] = min(s["min"], num)
+                s["max"] = max(s["max"], num)
+                s["sum"] += num
+                s["count"] += 1
+    # finalize averages
+    return {
+        k: {"min": v["min"], "max": v["max"], "avg": v["sum"] / v["count"]}
+        for k, v in stats.items()
+    }
+
 
 @app.route("/")
 def index():
@@ -62,6 +86,10 @@ def index():
     processed = []
     for filename, record in raw_records:
         flat = flatten_dict(record)
+
+        if flat.get("Return.ReturnHeader.ReturnTypeCd") != "990PF":
+            continue
+
         flat["filename"] = filename
         matches = all(
             str(flat.get(FILTERABLE_ATTRIBUTES[attr], "")).lower() == val.lower()
@@ -69,8 +97,11 @@ def index():
         )
         if matches or not filters:
             processed.append(flat)
+
+    stats = aggregate_numeric_fields(processed)
     return render_template(
-        "index.html", records=processed, filterable=FILTERABLE_ATTRIBUTES.keys()
+        "index.html", stats=stats, filterable=FILTERABLE_ATTRIBUTES.keys()
+
     )
 
 
