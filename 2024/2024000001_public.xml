@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile">
+  <ReturnHeader>
+    <Filer>
+      <EIN>111111111</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Sample Org CA</BusinessNameLine1Txt>
+      </BusinessName>
+      <USAddress>
+        <AddressLine1Txt>1 Market St</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94105</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+</Return>

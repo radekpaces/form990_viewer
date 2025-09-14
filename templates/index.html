@@ -16,9 +16,10 @@
     </form>
 
     {% for record in records %}
-      <h2>Record {{ loop.index }}</h2>
+      <h2>{{ record['filename'] }}</h2>
       <table border="1">
-        {% for k, v in record.items() %}
+        {% for k, v in record.items() if k != 'filename' %}
+
         <tr><th>{{ k }}</th><td>{{ v }}</td></tr>
         {% endfor %}
       </table>
