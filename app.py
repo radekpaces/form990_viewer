@@ -12,6 +12,7 @@ BASE_DIR = os.path.dirname(__file__)
 CONFIG_PATH = os.environ.get(
     "CONFIG_PATH", os.path.join(BASE_DIR, "config.json")
 )
+
 if os.path.exists(CONFIG_PATH):
     with open(CONFIG_PATH) as f:
         config = json.load(f)
@@ -23,13 +24,13 @@ FILTERABLE_ATTRIBUTES = config.get("filterable_attributes", {})
 
 def load_records(directory=os.path.join(BASE_DIR, "2024")):
     """Load XML files and return a list of (filename, data) tuples."""
+
     records = []
     for path in glob.glob(os.path.join(directory, "*.xml")):
         with open(path, "r", encoding="utf-8") as f:
             data = xmltodict.parse(f.read())
             records.append((os.path.basename(path), data))
     return records
-
 
 def flatten_dict(obj, parent_key="", sep="."):
     items = []
@@ -51,6 +52,7 @@ def flatten_dict(obj, parent_key="", sep="."):
 @app.route("/")
 def index():
     raw_records = load_records()
+
     # Ignore empty filter values to allow querying by any combination
     filters = {
         k: v
@@ -76,3 +78,4 @@ if __name__ == "__main__":
     # Enable debug mode when FLASK_DEBUG is truthy
     debug_flag = os.environ.get("FLASK_DEBUG", "").lower() in {"1", "true", "yes"}
     app.run(debug=debug_flag)
+

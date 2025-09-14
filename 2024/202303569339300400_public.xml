@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2022v7.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-12-22T07:51:02-06:00</ReturnTs>
+    <TaxPeriodEndDt>2023-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>621046406</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>JOHNSON HICKEY &amp; MURCHISON PC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2215 OLAN MILLS DRIVE</AddressLine1Txt>
+        <CityNm>CHATTANOOGA</CityNm>
+        <StateAbbreviationCd>TN</StateAbbreviationCd>
+        <ZIPCd>37421</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990T</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>621356764</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>CHATTANOOGAHAMILTON COUNTY PUBLIC</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>EDUCATION FUND</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>CHAT</BusinessNameControlTxt>
+      <PhoneNum>4232659403</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1651 S HOLTZCLAW AVENUE 201</AddressLine1Txt>
+        <CityNm>CHATTANOOGA</CityNm>
+        <StateAbbreviationCd>TN</StateAbbreviationCd>
+        <ZIPCd>37404</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>DANIEL D CHALLENER</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>4232659403</PhoneNum>
+      <SignatureDt>2023-12-21</SignatureDt>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>DANIEL</PersonFirstNm>
+        <PersonLastNm>CHALLENER</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>0</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>SHERRI ANDERSON</PreparerPersonNm>
+      <PTIN>P01228421</PTIN>
+      <PhoneNum>4237560052</PhoneNum>
+      <PreparationDt>2023-12-21</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>0</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS990T documentId="RetDoc1237100001">
+      <Organization501IndicatorGrp>
+        <Organization501Ind>X</Organization501Ind>
+        <Organization501cTypeTxt>c3</Organization501cTypeTxt>
+      </Organization501IndicatorGrp>
+      <BookValueAssetsEOYAmt>17474311</BookValueAssetsEOYAmt>
+      <Organization501cCorporationInd>X</Organization501cCorporationInd>
+      <Form990TScheduleAAttachedCnt>1</Form990TScheduleAAttachedCnt>
+      <SubsidiaryCorporationInd>0</SubsidiaryCorporationInd>
+      <BooksInCareOfDetail>
+        <PersonNm>DANIEL D CHALLENER PRESIDENT</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>835 GEORGIA AVE SUITE 400</AddressLine1Txt>
+          <CityNm>CHATTANOOGA</CityNm>
+          <StateAbbreviationCd>TN</StateAbbreviationCd>
+          <ZIPCd>37402</ZIPCd>
+        </USAddress>
+        <PhoneNum>4232659403</PhoneNum>
+      </BooksInCareOfDetail>
+      <TotalUBTIComputedAmt>11129</TotalUBTIComputedAmt>
+      <CharitableContributionsDedAmt>0</CharitableContributionsDedAmt>
+      <TotalUBTIBeforeNOLSpecificAmt>11129</TotalUBTIBeforeNOLSpecificAmt>
+      <TotalUBTIBeforeSection199AAmt>11129</TotalUBTIBeforeSection199AAmt>
+      <SpecificDeductionAmt>1000</SpecificDeductionAmt>
+      <TotalDeductionAmt>1000</TotalDeductionAmt>
+      <TotalUBTIAmt>10129</TotalUBTIAmt>
+      <TaxableCorporationAmt>2127</TaxableCorporationAmt>
+      <TotalTaxComputationAmt>2127</TotalTaxComputationAmt>
+      <TaxLessCreditsAmt>2127</TaxLessCreditsAmt>
+      <TotalTaxAmt>2127</TotalTaxAmt>
+      <PaidTaxLiabilityAmt>0</PaidTaxLiabilityAmt>
+      <PriorYearOverpaymentCreditAmt>535</PriorYearOverpaymentCreditAmt>
+      <ExtsnRequestIncomeTaxPaidAmt>2300</ExtsnRequestIncomeTaxPaidAmt>
+      <TotalPaymentsAmt>2835</TotalPaymentsAmt>
+      <ESPenaltyAmt>77</ESPenaltyAmt>
+      <OverpaymentSection>
+        <OverpaymentAmt>631</OverpaymentAmt>
+        <AppliedToESTaxAmt>631</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </OverpaymentSection>
+      <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      <ForeignTrustQuestionInd>0</ForeignTrustQuestionInd>
+      <ChangeInMethodOfAccountingInd>0</ChangeInMethodOfAccountingInd>
+    </IRS990T>
+    <IRS990TScheduleA documentId="RetDoc1087300001">
+      <PrincipalBusinessActivityCd>523000</PrincipalBusinessActivityCd>
+      <SequenceReferenceNum>1</SequenceReferenceNum>
+      <SequenceTotalNum>1</SequenceTotalNum>
+      <TradeOrBusinessDesc>UNRELATED BUSINESS INCOME FROM PARTNERSHIPS HELD FOR IN</TradeOrBusinessDesc>
+      <CapitalGainNetIncomeAmt referenceDocumentId="RetDoc1074900001">2231</CapitalGainNetIncomeAmt>
+      <TotalOrdinaryGainLossAmt referenceDocumentId="RetDoc1180000001">-606</TotalOrdinaryGainLossAmt>
+      <TotalPrtshpSCorpIncomeAmt referenceDocumentId="RetDoc2404700001">9504</TotalPrtshpSCorpIncomeAmt>
+      <TotUnrltTrdBusIncmAmt>11129</TotUnrltTrdBusIncmAmt>
+      <TotUnrltTrdBusIncmExpnssAmt>0</TotUnrltTrdBusIncmExpnssAmt>
+      <TotNetUnrltTrdBusIncmAmt>11129</TotNetUnrltTrdBusIncmAmt>
+      <TotalDeductionsAmt>0</TotalDeductionsAmt>
+      <UBIBeforeNOLDedAmt>11129</UBIBeforeNOLDedAmt>
+      <NetOperatingLossDeductionAmt>0</NetOperatingLossDeductionAmt>
+      <UnrelatedBusinessTaxblIncmAmt>11129</UnrelatedBusinessTaxblIncmAmt>
+      <TotalRentIncomeAmt>0</TotalRentIncomeAmt>
+      <TotalRentDeductionsAmt>0</TotalRentDeductionsAmt>
+      <TotalGrossDebtFinancedIncmAmt>0</TotalGrossDebtFinancedIncmAmt>
+      <TotalAllocableDeductionsAmt>0</TotalAllocableDeductionsAmt>
+      <TotalDividendsReceivedDedAmt>0</TotalDividendsReceivedDedAmt>
+      <TotalCtrlOrgPymtGrossIncmAmt>0</TotalCtrlOrgPymtGrossIncmAmt>
+      <TotalCtrlOrgDeductionAmt>0</TotalCtrlOrgDeductionAmt>
+      <TotalInvestmentIncomeAmt>0</TotalInvestmentIncomeAmt>
+      <TotalDeductionSetAsidesAmt>0</TotalDeductionSetAsidesAmt>
+      <TotalGrossAdvertisingIncomeAmt>0</TotalGrossAdvertisingIncomeAmt>
+      <TotalDirectAdvertisingCostAmt>0</TotalDirectAdvertisingCostAmt>
+      <TotExcessReadershipCostsDedAmt>0</TotExcessReadershipCostsDedAmt>
+      <TotalUnrelatedBusinessCompAmt>0</TotalUnrelatedBusinessCompAmt>
+    </IRS990TScheduleA>
+    <IRS1120ScheduleD documentId="RetDoc1074900001" referenceDocumentId="RetDoc1075600001">
+      <TotalLTCGL1099BNotReceivedGrp>
+        <TotalGainOrLossAmt>2231</TotalGainOrLossAmt>
+      </TotalLTCGL1099BNotReceivedGrp>
+      <NetLTCapitalGainOrLossAmt>2231</NetLTCapitalGainOrLossAmt>
+      <NetCapitalGainAmt>2231</NetCapitalGainAmt>
+      <CapitalGainNetIncomeAmt>2231</CapitalGainNetIncomeAmt>
+    </IRS1120ScheduleD>
+    <IRS8949 documentId="RetDoc1075600001">
+      <LongTermCapitalGainAndLossGrp>
+        <TransactionsNotRptedOn1099BInd>X</TransactionsNotRptedOn1099BInd>
+        <CapitalGainAndLossAssetGrp>
+          <PropertyDesc>PALLADIAN PARTNERS VII-A LP 7</PropertyDesc>
+          <GainOrLossAmt>-5</GainOrLossAmt>
+        </CapitalGainAndLossAssetGrp>
+        <CapitalGainAndLossAssetGrp>
+          <PropertyDesc>PALLADIAN PARTNERS VIII-A LP 12</PropertyDesc>
+          <GainOrLossAmt>2236</GainOrLossAmt>
+        </CapitalGainAndLossAssetGrp>
+        <TotalGainOrLossAmt>2231</TotalGainOrLossAmt>
+      </LongTermCapitalGainAndLossGrp>
+    </IRS8949>
+  </ReturnData>
+</Return>
