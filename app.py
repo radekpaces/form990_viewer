@@ -12,6 +12,7 @@ BASE_DIR = os.path.dirname(__file__)
 CONFIG_PATH = os.environ.get(
     "CONFIG_PATH", os.path.join(BASE_DIR, "config.json")
 )
+
 if os.path.exists(CONFIG_PATH):
     with open(CONFIG_PATH) as f:
         config = json.load(f)
@@ -30,7 +31,6 @@ def load_records(directory=os.path.join(BASE_DIR, "2024")):
             records.append((os.path.basename(path), data))
     return records
 
-
 def flatten_dict(obj, parent_key="", sep="."):
     items = []
     if isinstance(obj, dict):
@@ -46,7 +46,6 @@ def flatten_dict(obj, parent_key="", sep="."):
     else:
         items.append((parent_key, obj))
     return dict(items)
-
 
 def aggregate_numeric_fields(records):
     """Compute min, max, and average for numeric fields across records."""
@@ -77,6 +76,7 @@ def aggregate_numeric_fields(records):
 @app.route("/")
 def index():
     raw_records = load_records()
+
     # Ignore empty filter values to allow querying by any combination
     filters = {
         k: v
@@ -86,8 +86,10 @@ def index():
     processed = []
     for filename, record in raw_records:
         flat = flatten_dict(record)
+
         if flat.get("Return.ReturnHeader.ReturnTypeCd") != "990PF":
             continue
+
         flat["filename"] = filename
         matches = all(
             str(flat.get(FILTERABLE_ATTRIBUTES[attr], "")).lower() == val.lower()
@@ -95,9 +97,11 @@ def index():
         )
         if matches or not filters:
             processed.append(flat)
+
     stats = aggregate_numeric_fields(processed)
     return render_template(
         "index.html", stats=stats, filterable=FILTERABLE_ATTRIBUTES.keys()
+
     )
 
 
@@ -105,3 +109,4 @@ if __name__ == "__main__":
     # Enable debug mode when FLASK_DEBUG is truthy
     debug_flag = os.environ.get("FLASK_DEBUG", "").lower() in {"1", "true", "yes"}
     app.run(debug=debug_flag)
+
