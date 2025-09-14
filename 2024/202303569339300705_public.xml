@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2020v1.3">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2023-12-22T14:14:50-06:00</ReturnTs>
+    <TaxPeriodEndDt>2021-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>411431613</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>CREATIVE PLANNING TAX LLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO BOX 2100</AddressLine1Txt>
+        <CityNm>WATERLOO</CityNm>
+        <StateAbbreviationCd>IA</StateAbbreviationCd>
+        <ZIPCd>507042100</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990T</ReturnTypeCd>
+    <TaxPeriodBeginDt>2020-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>421460664</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>MAX AND HELEN GUERNSEY</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>CHARITABLE FOUNDATION</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>MAXA</BusinessNameControlTxt>
+      <PhoneNum>3192263434</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>3826 CEDAR HEIGHTS DRIVE STE 1</AddressLine1Txt>
+        <CityNm>CEDAR FALLS</CityNm>
+        <StateAbbreviationCd>IA</StateAbbreviationCd>
+        <ZIPCd>50613</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>THOMAS PAULSEN</PersonNm>
+      <PersonTitleTxt>TREASURER</PersonTitleTxt>
+      <PhoneNum>3192263434</PhoneNum>
+      <SignatureDt>2023-12-21</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>THOMAS</PersonFirstNm>
+        <PersonLastNm>PAULSEN</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>HEATHER GUNDERSON CPA</PreparerPersonNm>
+      <PTIN>P00196789</PTIN>
+      <PhoneNum>3192346885</PhoneNum>
+      <PreparationDt>2023-12-21</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>0</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2020</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990T documentId="RetDoc1237100001">
+      <AddressChangeInd>X</AddressChangeInd>
+      <Organization501IndicatorGrp>
+        <Organization501Ind>X</Organization501Ind>
+        <Organization501cTypeTxt>c3</Organization501cTypeTxt>
+      </Organization501IndicatorGrp>
+      <BookValueAssetsEOYAmt>48641315</BookValueAssetsEOYAmt>
+      <AmendedReturnInd>X</AmendedReturnInd>
+      <Organization501cCorporationInd>X</Organization501cCorporationInd>
+      <Form990TScheduleAAttachedCnt>4</Form990TScheduleAAttachedCnt>
+      <SubsidiaryCorporationInd>0</SubsidiaryCorporationInd>
+      <BooksInCareOfDetail>
+        <PersonNm>BERGANKDV LTD</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>100 E PARK AVENUE STE 300</AddressLine1Txt>
+          <CityNm>WATERLOO</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50704</ZIPCd>
+        </USAddress>
+        <PhoneNum>3192346885</PhoneNum>
+      </BooksInCareOfDetail>
+      <TotalUBTIComputedAmt>911439</TotalUBTIComputedAmt>
+      <CharitableContributionsDedAmt>91044</CharitableContributionsDedAmt>
+      <TotalUBTIBeforeNOLSpecificAmt>820395</TotalUBTIBeforeNOLSpecificAmt>
+      <TotalUBTIBeforeSection199AAmt>820395</TotalUBTIBeforeSection199AAmt>
+      <SpecificDeductionAmt>1000</SpecificDeductionAmt>
+      <TotalDeductionAmt>1000</TotalDeductionAmt>
+      <TotalUBTIAmt>819395</TotalUBTIAmt>
+      <TaxableCorporationAmt>172073</TaxableCorporationAmt>
+      <TotalTaxComputationAmt>172073</TotalTaxComputationAmt>
+      <CYGenBusinessCreditAllowedAmt>5271</CYGenBusinessCreditAllowedAmt>
+      <TotalCreditsAmt>5271</TotalCreditsAmt>
+      <TaxLessCreditsAmt>166802</TaxLessCreditsAmt>
+      <TotalTaxAmt>166802</TotalTaxAmt>
+      <PaidTaxLiabilityAmt>0</PaidTaxLiabilityAmt>
+      <PriorYearOverpaymentCreditAmt>31686</PriorYearOverpaymentCreditAmt>
+      <EstimatedTaxPaymentsAmt>152994</EstimatedTaxPaymentsAmt>
+      <ExtsnRequestIncomeTaxPaidAmt>29167</ExtsnRequestIncomeTaxPaidAmt>
+      <TotalPaymentsAmt>213847</TotalPaymentsAmt>
+      <OverpaymentSection>
+        <OverpaymentAmt>47045</OverpaymentAmt>
+        <AppliedToESTaxAmt>42770</AppliedToESTaxAmt>
+        <RefundAmt>4275</RefundAmt>
+      </OverpaymentSection>
+      <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      <ForeignTrustQuestionInd>0</ForeignTrustQuestionInd>
+      <ChangeInMethodOfAccountingInd>0</ChangeInMethodOfAccountingInd>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART I</PartNum>
+        <LineNum>1</LineNum>
+        <ExplanationTxt>UNRELATED BUSINESS TAXABLE INCOME INCREASED BY $5,270 DUE TO AN AMENDED 2020 K-1 FROM RADA MANUFACTURING COMPANY, INC (SCHEDULE A, ENTITY 3).</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART I</PartNum>
+        <LineNum>4</LineNum>
+        <ExplanationTxt>CHARITABLE CONTRIBUTIONS ALLOWED INCREASED BY $527 AS A RESULT OF LINE 1 INCREASING BY $5,270 (10% UBTI LIMITATION * $5,270).</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART II</PartNum>
+        <LineNum>1</LineNum>
+        <ExplanationTxt>TAX COMPUTED ON THE NET INCREASE IN INCOME OF $4,743 IS $996, RESULTING IN TOTAL TAX OF $172,073.</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART III</PartNum>
+        <LineNum>1C</LineNum>
+        <ExplanationTxt>THE FOUNDATION RECEIVED AN AMENDED 2020 K-1 FROM RADA MANUFACTURING COMPANY, INC (SCHEDULE A, ENTITY 3) REPORTING A CREDIT FOR INCREASING RESEARCH ACTIVITIES OF $5,271. SEE FORM 3800.ATTACHED TO FORM 990-T ARE THE PDF DISCLOSURE STATEMENTS FILED BY RADA MANUFACTURING COMPANY, INC.</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART III</PartNum>
+        <LineNum>10</LineNum>
+        <ExplanationTxt>THE TOTAL OVERPAYMENT INCREASED BY THE $4,275, AS A RESULT OF THE GENERAL BUSINESS CREDIT OF $5,271 FROM THE AMENDED K-1 LESS THE $996 INCREASE IN TAX ON THE ADDITIONAL INCOME FROM THE AMENDED K-1.</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART III</PartNum>
+        <LineNum>11</LineNum>
+        <ExplanationTxt>THE AMOUNT 'CREDITED TO 2021 ESTIMATED TAX' DID NOT CHANGE AND STILL REFLECTS $42,770 OF OVERPAYMENT APPLIED TO THE 2021 TAX RETURN. THE INCREASE ON LINE 10 OF $4,275 IS BEING REQUESTED AS A REFUND TO THE FOUNDATION.</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+      <ItmzdSupplementalInfoGrp>
+        <PartNum>PART I</PartNum>
+        <LineNum>4</LineNum>
+        <ExplanationTxt>CHARITABLE CONTRIBUTION CARRYOVER TO 2021 IS REDUCED BY $527 OF ADDITIONAL CONTRIBUTIONS ALLOWED ON PART I, LINE 4. ORIGINAL CHARITABLE CONTRIBUTION CARRYOVER - $8,041,491.AMENDED CHARITABLE CONTRIBUTION CARRYOVER - $8,040,964</ExplanationTxt>
+      </ItmzdSupplementalInfoGrp>
+    </IRS990T>
+    <IRS990TScheduleA documentId="RetDoc1087300001">
+      <PrincipalBusinessActivityCd>531390</PrincipalBusinessActivityCd>
+      <SequenceReferenceNum>1</SequenceReferenceNum>
+      <SequenceTotalNum>4</SequenceTotalNum>
+      <TradeOrBusinessDesc>CEDAR VALLEY VENTURE FUND NO. 1, L.C. K-1</TradeOrBusinessDesc>
+      <TotalPrtshpSCorpIncomeAmt referenceDocumentId="RetDoc2404750673">-100</TotalPrtshpSCorpIncomeAmt>
+      <TotUnrltTrdBusIncmAmt>-100</TotUnrltTrdBusIncmAmt>
+      <TotUnrltTrdBusIncmExpnssAmt>0</TotUnrltTrdBusIncmExpnssAmt>
+      <TotNetUnrltTrdBusIncmAmt>-100</TotNetUnrltTrdBusIncmAmt>
+      <TotalDeductionsAmt>0</TotalDeductionsAmt>
+      <UBIBeforeNOLDedAmt>-100</UBIBeforeNOLDedAmt>
+      <NetOperatingLossDeductionAmt>0</NetOperatingLossDeductionAmt>
+      <UnrelatedBusinessTaxblIncmAmt>-100</UnrelatedBusinessTaxblIncmAmt>
+      <RentIncomePropertyGrp>
+        <USAddress>
+          <AddressLine1Txt>131 TOWER PARK DRIVE STE 100</AddressLine1Txt>
+          <CityNm>WATERLOO</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50701</ZIPCd>
+        </USAddress>
+        <RentPersonalPropertyAmt>0</RentPersonalPropertyAmt>
+        <RentRealPersonalPropertyAmt>0</RentRealPersonalPropertyAmt>
+        <TotalRentsByPropertyAmt>0</TotalRentsByPropertyAmt>
+        <DeductionsConnectedRentIncmAmt>0</DeductionsConnectedRentIncmAmt>
+      </RentIncomePropertyGrp>
+      <TotalRentIncomeAmt>0</TotalRentIncomeAmt>
+      <TotalRentDeductionsAmt>0</TotalRentDeductionsAmt>
+      <UnrelatedDebtFinancedPropGrp>
+        <USAddress>
+          <AddressLine1Txt>131 TOWER PARK DRIVE</AddressLine1Txt>
+          <CityNm>WATERLOO</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50701</ZIPCd>
+        </USAddress>
+        <GrossIncomeAmt>0</GrossIncomeAmt>
+        <StraightLineDepreciationDedAmt>0</StraightLineDepreciationDedAmt>
+        <OtherDebtFinancedDeductionAmt>0</OtherDebtFinancedDeductionAmt>
+        <AverageAcquisitionDebtAmt>0</AverageAcquisitionDebtAmt>
+        <AverageAdjustedBasisAmt>0</AverageAdjustedBasisAmt>
+        <AverageAcquisitionAdjBasisPct>0.00000</AverageAcquisitionAdjBasisPct>
+        <GrossIncomeReportableAmt>0</GrossIncomeReportableAmt>
+        <AllocableDeductionAmt>0</AllocableDeductionAmt>
+      </UnrelatedDebtFinancedPropGrp>
+      <TotalGrossDebtFinancedIncmAmt>0</TotalGrossDebtFinancedIncmAmt>
+      <TotalAllocableDeductionsAmt>0</TotalAllocableDeductionsAmt>
+      <TotalDividendsReceivedDedAmt>0</TotalDividendsReceivedDedAmt>
+      <TotalCtrlOrgPymtGrossIncmAmt>0</TotalCtrlOrgPymtGrossIncmAmt>
+      <TotalCtrlOrgDeductionAmt>0</TotalCtrlOrgDeductionAmt>
+      <InvestmentIncmSect501c7917Grp>
+        <IncomeTypeDesc>N/A</IncomeTypeDesc>
+        <InvestmentIncomeAmt>0</InvestmentIncomeAmt>
+        <InvestmentIncomeDeductionAmt>0</InvestmentIncomeDeductionAmt>
+        <InvestmentIncomeSetAsidesAmt>0</InvestmentIncomeSetAsidesAmt>
+        <DeductionSetAsidesAmt>0</DeductionSetAsidesAmt>
+      </InvestmentIncmSect501c7917Grp>
+      <TotalInvestmentIncomeAmt>0</TotalInvestmentIncomeAmt>
+      <TotalDeductionSetAsidesAmt>0</TotalDeductionSetAsidesAmt>
+      <TotalGrossAdvertisingIncomeAmt>0</TotalGrossAdvertisingIncomeAmt>
+      <TotalDirectAdvertisingCostAmt>0</TotalDirectAdvertisingCostAmt>
+      <TotExcessReadershipCostsDedAmt>0</TotExcessReadershipCostsDedAmt>
+      <TotalUnrelatedBusinessCompAmt>0</TotalUnrelatedBusinessCompAmt>
+    </IRS990TScheduleA>
+    <IRS990TScheduleA documentId="RetDoc1087300002">
+      <PrincipalBusinessActivityCd>310000</PrincipalBusinessActivityCd>
+      <SequenceReferenceNum>2</SequenceReferenceNum>
+      <SequenceTotalNum>4</SequenceTotalNum>
+      <TradeOrBusinessDesc>WAVERLY PLASTICS COMPANY, INC. K-1</TradeOrBusinessDesc>
+      <TotalPrtshpSCorpIncomeAmt referenceDocumentId="RetDoc2404750674">62190</TotalPrtshpSCorpIncomeAmt>
+      <TotUnrltTrdBusIncmAmt>62190</TotUnrltTrdBusIncmAmt>
+      <TotUnrltTrdBusIncmExpnssAmt>0</TotUnrltTrdBusIncmExpnssAmt>
+      <TotNetUnrltTrdBusIncmAmt>62190</TotNetUnrltTrdBusIncmAmt>
+      <OtherDeductionsAmt referenceDocumentId="RetDoc2406100002">266</OtherDeductionsAmt>
+      <TotalDeductionsAmt>266</TotalDeductionsAmt>
+      <UBIBeforeNOLDedAmt>61924</UBIBeforeNOLDedAmt>
+      <NetOperatingLossDeductionAmt>0</NetOperatingLossDeductionAmt>
+      <UnrelatedBusinessTaxblIncmAmt>61924</UnrelatedBusinessTaxblIncmAmt>
+      <RentIncomePropertyGrp>
+        <USAddress>
+          <AddressLine1Txt>1001 INDUSTRIAL ST</AddressLine1Txt>
+          <CityNm>WAVERLY</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50677</ZIPCd>
+        </USAddress>
+        <RentPersonalPropertyAmt>0</RentPersonalPropertyAmt>
+        <RentRealPersonalPropertyAmt>0</RentRealPersonalPropertyAmt>
+        <TotalRentsByPropertyAmt>0</TotalRentsByPropertyAmt>
+        <DeductionsConnectedRentIncmAmt>0</DeductionsConnectedRentIncmAmt>
+      </RentIncomePropertyGrp>
+      <TotalRentIncomeAmt>0</TotalRentIncomeAmt>
+      <TotalRentDeductionsAmt>0</TotalRentDeductionsAmt>
+      <UnrelatedDebtFinancedPropGrp>
+        <USAddress>
+          <AddressLine1Txt>1001 INDUSTRIAL ST</AddressLine1Txt>
+          <CityNm>WAVERLY</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50677</ZIPCd>
+        </USAddress>
+        <GrossIncomeAmt>0</GrossIncomeAmt>
+        <StraightLineDepreciationDedAmt>0</StraightLineDepreciationDedAmt>
+        <OtherDebtFinancedDeductionAmt>0</OtherDebtFinancedDeductionAmt>
+        <AverageAcquisitionDebtAmt>0</AverageAcquisitionDebtAmt>
+        <AverageAdjustedBasisAmt>0</AverageAdjustedBasisAmt>
+        <AverageAcquisitionAdjBasisPct>0.00000</AverageAcquisitionAdjBasisPct>
+        <GrossIncomeReportableAmt>0</GrossIncomeReportableAmt>
+        <AllocableDeductionAmt>0</AllocableDeductionAmt>
+      </UnrelatedDebtFinancedPropGrp>
+      <TotalGrossDebtFinancedIncmAmt>0</TotalGrossDebtFinancedIncmAmt>
+      <TotalAllocableDeductionsAmt>0</TotalAllocableDeductionsAmt>
+      <TotalDividendsReceivedDedAmt>0</TotalDividendsReceivedDedAmt>
+      <TotalCtrlOrgPymtGrossIncmAmt>0</TotalCtrlOrgPymtGrossIncmAmt>
+      <TotalCtrlOrgDeductionAmt>0</TotalCtrlOrgDeductionAmt>
+      <InvestmentIncmSect501c7917Grp>
+        <IncomeTypeDesc>N/A</IncomeTypeDesc>
+        <InvestmentIncomeAmt>0</InvestmentIncomeAmt>
+        <InvestmentIncomeDeductionAmt>0</InvestmentIncomeDeductionAmt>
+        <InvestmentIncomeSetAsidesAmt>0</InvestmentIncomeSetAsidesAmt>
+        <DeductionSetAsidesAmt>0</DeductionSetAsidesAmt>
+      </InvestmentIncmSect501c7917Grp>
+      <TotalInvestmentIncomeAmt>0</TotalInvestmentIncomeAmt>
+      <TotalDeductionSetAsidesAmt>0</TotalDeductionSetAsidesAmt>
+      <TotalGrossAdvertisingIncomeAmt>0</TotalGrossAdvertisingIncomeAmt>
+      <TotalDirectAdvertisingCostAmt>0</TotalDirectAdvertisingCostAmt>
+      <TotExcessReadershipCostsDedAmt>0</TotExcessReadershipCostsDedAmt>
+      <TotalUnrelatedBusinessCompAmt>0</TotalUnrelatedBusinessCompAmt>
+    </IRS990TScheduleA>
+    <IRS990TScheduleA documentId="RetDoc1087300003">
+      <PrincipalBusinessActivityCd>310000</PrincipalBusinessActivityCd>
+      <SequenceReferenceNum>3</SequenceReferenceNum>
+      <SequenceTotalNum>4</SequenceTotalNum>
+      <TradeOrBusinessDesc>RADA MANUFACTURING COMPANY, INC. K-1</TradeOrBusinessDesc>
+      <TotalPrtshpSCorpIncomeAmt referenceDocumentId="RetDoc2404750675">844605</TotalPrtshpSCorpIncomeAmt>
+      <TotUnrltTrdBusIncmAmt>844605</TotUnrltTrdBusIncmAmt>
+      <TotUnrltTrdBusIncmExpnssAmt>0</TotUnrltTrdBusIncmExpnssAmt>
+      <TotNetUnrltTrdBusIncmAmt>844605</TotNetUnrltTrdBusIncmAmt>
+      <OtherDeductionsAmt referenceDocumentId="RetDoc2406100003">4144</OtherDeductionsAmt>
+      <TotalDeductionsAmt>4144</TotalDeductionsAmt>
+      <UBIBeforeNOLDedAmt>840461</UBIBeforeNOLDedAmt>
+      <NetOperatingLossDeductionAmt>0</NetOperatingLossDeductionAmt>
+      <UnrelatedBusinessTaxblIncmAmt>840461</UnrelatedBusinessTaxblIncmAmt>
+      <RentIncomePropertyGrp>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 838</AddressLine1Txt>
+          <CityNm>WAVERLY</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50677</ZIPCd>
+        </USAddress>
+        <RentPersonalPropertyAmt>0</RentPersonalPropertyAmt>
+        <RentRealPersonalPropertyAmt>0</RentRealPersonalPropertyAmt>
+        <TotalRentsByPropertyAmt>0</TotalRentsByPropertyAmt>
+        <DeductionsConnectedRentIncmAmt>0</DeductionsConnectedRentIncmAmt>
+      </RentIncomePropertyGrp>
+      <TotalRentIncomeAmt>0</TotalRentIncomeAmt>
+      <TotalRentDeductionsAmt>0</TotalRentDeductionsAmt>
+      <UnrelatedDebtFinancedPropGrp>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 838</AddressLine1Txt>
+          <CityNm>WAVERLY</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50677</ZIPCd>
+        </USAddress>
+        <GrossIncomeAmt>0</GrossIncomeAmt>
+        <StraightLineDepreciationDedAmt>0</StraightLineDepreciationDedAmt>
+        <OtherDebtFinancedDeductionAmt>0</OtherDebtFinancedDeductionAmt>
+        <AverageAcquisitionDebtAmt>0</AverageAcquisitionDebtAmt>
+        <AverageAdjustedBasisAmt>0</AverageAdjustedBasisAmt>
+        <AverageAcquisitionAdjBasisPct>0.00000</AverageAcquisitionAdjBasisPct>
+        <GrossIncomeReportableAmt>0</GrossIncomeReportableAmt>
+        <AllocableDeductionAmt>0</AllocableDeductionAmt>
+      </UnrelatedDebtFinancedPropGrp>
+      <TotalGrossDebtFinancedIncmAmt>0</TotalGrossDebtFinancedIncmAmt>
+      <TotalAllocableDeductionsAmt>0</TotalAllocableDeductionsAmt>
+      <TotalDividendsReceivedDedAmt>0</TotalDividendsReceivedDedAmt>
+      <TotalCtrlOrgPymtGrossIncmAmt>0</TotalCtrlOrgPymtGrossIncmAmt>
+      <TotalCtrlOrgDeductionAmt>0</TotalCtrlOrgDeductionAmt>
+      <InvestmentIncmSect501c7917Grp>
+        <IncomeTypeDesc>N/A</IncomeTypeDesc>
+        <InvestmentIncomeAmt>0</InvestmentIncomeAmt>
+        <InvestmentIncomeDeductionAmt>0</InvestmentIncomeDeductionAmt>
+        <InvestmentIncomeSetAsidesAmt>0</InvestmentIncomeSetAsidesAmt>
+        <DeductionSetAsidesAmt>0</DeductionSetAsidesAmt>
+      </InvestmentIncmSect501c7917Grp>
+      <TotalInvestmentIncomeAmt>0</TotalInvestmentIncomeAmt>
+      <TotalDeductionSetAsidesAmt>0</TotalDeductionSetAsidesAmt>
+      <TotalGrossAdvertisingIncomeAmt>0</TotalGrossAdvertisingIncomeAmt>
+      <TotalDirectAdvertisingCostAmt>0</TotalDirectAdvertisingCostAmt>
+      <TotExcessReadershipCostsDedAmt>0</TotExcessReadershipCostsDedAmt>
+      <TotalUnrelatedBusinessCompAmt>0</TotalUnrelatedBusinessCompAmt>
+    </IRS990TScheduleA>
+    <IRS990TScheduleA documentId="RetDoc1087300004">
+      <PrincipalBusinessActivityCd>522100</PrincipalBusinessActivityCd>
+      <SequenceReferenceNum>4</SequenceReferenceNum>
+      <SequenceTotalNum>4</SequenceTotalNum>
+      <TradeOrBusinessDesc>EVANS BANCSHARES INC K-1</TradeOrBusinessDesc>
+      <TotalPrtshpSCorpIncomeAmt referenceDocumentId="RetDoc2404750676">9093</TotalPrtshpSCorpIncomeAmt>
+      <TotUnrltTrdBusIncmAmt>9093</TotUnrltTrdBusIncmAmt>
+      <TotUnrltTrdBusIncmExpnssAmt>0</TotUnrltTrdBusIncmExpnssAmt>
+      <TotNetUnrltTrdBusIncmAmt>9093</TotNetUnrltTrdBusIncmAmt>
+      <OtherDeductionsAmt referenceDocumentId="RetDoc2406100004">39</OtherDeductionsAmt>
+      <TotalDeductionsAmt>39</TotalDeductionsAmt>
+      <UBIBeforeNOLDedAmt>9054</UBIBeforeNOLDedAmt>
+      <NetOperatingLossDeductionAmt>0</NetOperatingLossDeductionAmt>
+      <UnrelatedBusinessTaxblIncmAmt>9054</UnrelatedBusinessTaxblIncmAmt>
+      <RentIncomePropertyGrp>
+        <USAddress>
+          <AddressLine1Txt>3600 LAFAYETTE RD</AddressLine1Txt>
+          <CityNm>EVANSDALE</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50707</ZIPCd>
+        </USAddress>
+        <RentPersonalPropertyAmt>0</RentPersonalPropertyAmt>
+        <RentRealPersonalPropertyAmt>0</RentRealPersonalPropertyAmt>
+        <TotalRentsByPropertyAmt>0</TotalRentsByPropertyAmt>
+        <DeductionsConnectedRentIncmAmt>0</DeductionsConnectedRentIncmAmt>
+      </RentIncomePropertyGrp>
+      <TotalRentIncomeAmt>0</TotalRentIncomeAmt>
+      <TotalRentDeductionsAmt>0</TotalRentDeductionsAmt>
+      <UnrelatedDebtFinancedPropGrp>
+        <USAddress>
+          <AddressLine1Txt>3600 LAFAYETTE RD</AddressLine1Txt>
+          <CityNm>EVANSDALE</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>50707</ZIPCd>
+        </USAddress>
+        <GrossIncomeAmt>0</GrossIncomeAmt>
+        <StraightLineDepreciationDedAmt>0</StraightLineDepreciationDedAmt>
+        <OtherDebtFinancedDeductionAmt>0</OtherDebtFinancedDeductionAmt>
+        <AverageAcquisitionDebtAmt>0</AverageAcquisitionDebtAmt>
+        <AverageAdjustedBasisAmt>0</AverageAdjustedBasisAmt>
+        <AverageAcquisitionAdjBasisPct>0.00000</AverageAcquisitionAdjBasisPct>
+        <GrossIncomeReportableAmt>0</GrossIncomeReportableAmt>
+        <AllocableDeductionAmt>0</AllocableDeductionAmt>
+      </UnrelatedDebtFinancedPropGrp>
+      <TotalGrossDebtFinancedIncmAmt>0</TotalGrossDebtFinancedIncmAmt>
+      <TotalAllocableDeductionsAmt>0</TotalAllocableDeductionsAmt>
+      <TotalDividendsReceivedDedAmt>0</TotalDividendsReceivedDedAmt>
+      <TotalCtrlOrgPymtGrossIncmAmt>0</TotalCtrlOrgPymtGrossIncmAmt>
+      <TotalCtrlOrgDeductionAmt>0</TotalCtrlOrgDeductionAmt>
+      <InvestmentIncmSect501c7917Grp>
+        <IncomeTypeDesc>N/A</IncomeTypeDesc>
+        <InvestmentIncomeAmt>0</InvestmentIncomeAmt>
+        <InvestmentIncomeDeductionAmt>0</InvestmentIncomeDeductionAmt>
+        <InvestmentIncomeSetAsidesAmt>0</InvestmentIncomeSetAsidesAmt>
+        <DeductionSetAsidesAmt>0</DeductionSetAsidesAmt>
+      </InvestmentIncmSect501c7917Grp>
+      <TotalInvestmentIncomeAmt>0</TotalInvestmentIncomeAmt>
+      <TotalDeductionSetAsidesAmt>0</TotalDeductionSetAsidesAmt>
+      <TotalGrossAdvertisingIncomeAmt>0</TotalGrossAdvertisingIncomeAmt>
+      <TotalDirectAdvertisingCostAmt>0</TotalDirectAdvertisingCostAmt>
+      <TotExcessReadershipCostsDedAmt>0</TotExcessReadershipCostsDedAmt>
+      <TotalUnrelatedBusinessCompAmt>0</TotalUnrelatedBusinessCompAmt>
+    </IRS990TScheduleA>
+    <IRS3800 documentId="RetDoc1090600001">
+      <GeneralBusCrFromNnPssvActyAmt>5271</GeneralBusCrFromNnPssvActyAmt>
+      <CYCreditsNotAllwAgainstTMTAmt>5271</CYCreditsNotAllwAgainstTMTAmt>
+      <RegularTaxBeforeCreditsAmt>172073</RegularTaxBeforeCreditsAmt>
+      <AlternativeMinimumTaxAmt>0</AlternativeMinimumTaxAmt>
+      <AdjustedRegTaxBeforeCreditAmt>172073</AdjustedRegTaxBeforeCreditAmt>
+      <NetIncomeTaxAmt>172073</NetIncomeTaxAmt>
+      <NetRegularTaxAmt>172073</NetRegularTaxAmt>
+      <ExcessNetRegularTaxAmt>36768</ExcessNetRegularTaxAmt>
+      <AdjustedExcessNetRegularTaxAmt>36768</AdjustedExcessNetRegularTaxAmt>
+      <AdjustedNetIncomeTaxAmt>135305</AdjustedNetIncomeTaxAmt>
+      <SmllrCYNotAllwTMTOrTotAdjAmt>5271</SmllrCYNotAllwTMTOrTotAdjAmt>
+      <EmpwrZoneAndComEmploymentCrAmt>0</EmpwrZoneAndComEmploymentCrAmt>
+      <NetIncomeTaxLessPctExcessAmt>135305</NetIncomeTaxLessPctExcessAmt>
+      <SumSmllrEmpwrZnEmplmnCrAmt>5271</SumSmllrEmpwrZnEmplmnCrAmt>
+      <NetSmllrAndEmpwrZnEmplmnCrAmt>130034</NetSmllrAndEmpwrZnEmplmnCrAmt>
+      <CurrentYearCreditAllowedAmt>5271</CurrentYearCreditAllowedAmt>
+      <GenBusCrOrEligSmllBusCrGrp>
+        <GeneralBusCrFromNnpssvActyGrp>
+          <GeneralBusCrFromNnpssvActyInd>X</GeneralBusCrFromNnpssvActyInd>
+          <BusinessCreditsGrp>
+            <CYIncreasingResearchCrGrp>
+              <CYIncreasingResearchCrAmt>5271</CYIncreasingResearchCrAmt>
+              <PassThroughEntityEIN>420958045</PassThroughEntityEIN>
+            </CYIncreasingResearchCrGrp>
+            <CurrentYearGeneralBusCrAmt>5271</CurrentYearGeneralBusCrAmt>
+            <TotalBusinessCreditsAmt>5271</TotalBusinessCreditsAmt>
+          </BusinessCreditsGrp>
+        </GeneralBusCrFromNnpssvActyGrp>
+      </GenBusCrOrEligSmllBusCrGrp>
+    </IRS3800>
+  </ReturnData>
+</Return>

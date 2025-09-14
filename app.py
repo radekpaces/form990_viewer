@@ -13,7 +13,9 @@ if os.path.exists(CONFIG_PATH):
 else:
     config = {}
 
+
 FILTERABLE_ATTRIBUTES = config.get("filterable_attributes", {})
+
 
 
 def load_records(directory="2024"):
@@ -23,6 +25,7 @@ def load_records(directory="2024"):
             data = xmltodict.parse(f.read())
             records.append((os.path.basename(path), data))
     return records
+
 
 
 def flatten_dict(obj, parent_key="", sep="."):
@@ -37,6 +40,7 @@ def flatten_dict(obj, parent_key="", sep="."):
             items.extend(flatten_dict(v, new_key, sep=sep).items())
     else:
         items.append((parent_key, obj))
+
     return dict(items)
 
 
@@ -45,6 +49,7 @@ def index():
     raw_records = load_records()
     filters = {k: v for k, v in request.args.items() if k in FILTERABLE_ATTRIBUTES}
     processed = []
+
     for filename, record in raw_records:
         flat = flatten_dict(record)
         flat["filename"] = filename
