@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile">
+  <ReturnHeader>
+    <Filer>
+      <EIN>222222222</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Sample Org NY</BusinessNameLine1Txt>
+      </BusinessName>
+      <USAddress>
+        <AddressLine1Txt>500 5th Ave</AddressLine1Txt>
+        <CityNm>New York</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10110</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+</Return>

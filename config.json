@@ -1,0 +1,7 @@
+{
+  "filterable_attributes": {
+    "City": "Return.ReturnHeader.Filer.USAddress.CityNm",
+    "State": "Return.ReturnHeader.Filer.USAddress.StateAbbreviationCd",
+    "ZIP": "Return.ReturnHeader.Filer.USAddress.ZIPCd"
+  }
+}
