@@ -19,7 +19,6 @@
       <h2>{{ record['filename'] }}</h2>
       <table border="1">
         {% for k, v in record.items() if k != 'filename' %}
-
         <tr><th>{{ k }}</th><td>{{ v }}</td></tr>
         {% endfor %}
       </table>
