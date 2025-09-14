@@ -1,0 +1,7 @@
+{
+  "filterable_attributes": [
+    "Return.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.CityNm",
+    "Return.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.StateAbbreviationCd",
+    "Return.ReturnHeader.PreparerFirmGrp.PreparerUSAddress.ZIPCd"
+  ]
+}
