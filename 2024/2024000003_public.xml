@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile">
+  <ReturnHeader>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <Filer>
+      <EIN>333333333</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Sample PF Org A</BusinessNameLine1Txt>
+      </BusinessName>
+      <USAddress>
+        <AddressLine1Txt>10 Market St</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94105</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <ReturnData>
+    <IRS990PF>
+      <TotalAssetsEOYAmt>100000</TotalAssetsEOYAmt>
+      <NetInvestmentIncomeAmt>5000</NetInvestmentIncomeAmt>
+    </IRS990PF>
+  </ReturnData>
+</Return>

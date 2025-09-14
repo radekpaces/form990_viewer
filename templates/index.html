@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form 990 Viewer</title>
+  </head>
+  <body>
+    <h1>Form 990 Viewer</h1>
+    <form method="get">
+      {% for attr in filterable %}
+        <label>{{ attr }}:
+          <input type="text" name="{{ attr }}" value="{{ request.args.get(attr, '') }}">
+        </label><br>
+      {% endfor %}
+      <button type="submit">Filter</button>
+    </form>
+
+    {% if stats %}
+      <h2>Aggregated numeric fields</h2>
+      <table border="1">
+        <tr><th>Field</th><th>Min</th><th>Max</th><th>Average</th></tr>
+        {% for field, vals in stats.items() %}
+          <tr>
+            <td>{{ field }}</td>
+            <td>{{ vals.min }}</td>
+            <td>{{ vals.max }}</td>
+            <td>{{ '%.2f'|format(vals.avg) }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% else %}
+      <p>No matching records.</p>
+    {% endif %}
+  </body>
+</html>
